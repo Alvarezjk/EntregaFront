@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\maquetado PETSHOP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "maquetado PETSHOP"
+	}
+}

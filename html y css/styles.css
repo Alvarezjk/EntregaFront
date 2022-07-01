@@ -1,0 +1,595 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+main{
+    background-image: url(/imagenes/bg-tablet-pattern.svg);
+    background-repeat:no-repeat;
+    background-position: left -450px bottom 40px;
+}
+body{
+    background-image: url(/imagenes/bg-tablet-pattern.svg);
+    background-repeat:no-repeat;
+    background-position: right -145px top -250px;
+}
+
+/*Inicio Barra De Navegacion*/
+.barraNav{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+    
+
+.nav-list li{
+    font-size: 15px;
+    display: inline-block;
+    color: #242E52;
+    padding: 0px 40px 0px 0px ;
+}
+button {
+    font-size: 13px;
+    background-color:#F3603B ;
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    border:none;
+    border-radius:60px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.36);
+    
+}
+.hamburguesa{
+    display: none;
+}
+
+button a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+/*fin Barra De Navegacion*/
+
+
+/*inicio cuerpo de pagina*/
+
+/*seccion 1 star*/
+
+.seccion1{
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+    
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    line-height: 58px;
+    letter-spacing: -3.5%;
+    padding-left: 160px ;
+    padding-right:160px ;
+    
+    gap: 20px;
+    
+    
+}
+.graphics{
+    display: flex;
+    z-index: 1;
+    
+  
+}
+.texto h1{
+    color: #232C50;
+    font-size: 58px;
+
+    
+}
+.texto p {
+    color: ;
+    font-size: 16.50px;
+    line-height: 23px;
+    
+}
+
+.seccion1 button {
+    font-size: 13px;
+    background-color:#F3603B ;
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    border:none;
+    border-radius:60px;
+    margin: 15px 0px 0px 0px ;
+}
+
+
+/*seccion 1 fin*/
+
+/* seccion 2 article 2*/
+
+.dos{
+    display:flex;
+    flex-direction:row;
+     
+}
+.texto2{
+    width: 50%;
+    padding-left: 160px ;
+    padding-right:220px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+.texto2 h3{
+    color: #232C50;
+    font-size: 36px;
+    padding: 20px 0px;
+    
+}
+.texto2 p{
+    margin: 0px 40px 0px 0px ;
+}
+
+
+.texto3{
+    width: 50%;
+    padding-left: 250px ;
+    padding-right:120px ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.texto3 h3{
+    position: relative;
+    top: -18px;
+}
+
+.texto3 p{
+    color: #B3B2B7;
+    line-height: 20px;
+}
+
+        
+.point li:nth-child(1){
+    color: #232C50;
+    list-style-image: url(/imagenes/Button\ 1.png);
+    padding: 20px 0px 0px 20px ;
+    z-index: 1;
+   
+}
+
+.point li:nth-child(2){
+    color: #232C50;
+    list-style-image: url(/imagenes/Button\ 2.png);
+    padding: 30px 0px 0px 20px ;
+    
+}
+.point li:nth-child(3){
+    color: #232C50;
+    list-style-image: url(/imagenes/Button\ 3.png);
+    padding: 30px 0px 0px 20px ;
+    
+}
+
+.titulosection{
+    display: flex;
+    color: #232C50;
+    justify-content: center;
+    font-size: 39.21px;
+    padding: 40px 0px ;
+    margin: 50px 40px;
+}
+
+.tres{
+    display: flex;
+    background-color: #f6f6f6;
+    height: 200px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 0px ;
+    margin: 80px 40px ;
+    gap: 20px;
+    
+    }
+    .card1{
+        width: 33.3%;
+    }
+    .card2{
+        width: 33.3%;
+    }
+    .card3{
+        width: 33.3%;
+    }
+
+    .tres img{
+        width: 80px;
+        position: relative;
+        bottom: 70px;
+      }
+
+    .tres p{
+        position: relative;
+        bottom: 40px;
+        font-size: 16px;
+        color: #B9B9C1;
+        line-height: 25px;
+    }
+
+    .tres h3{
+        position: relative;
+        bottom: 55px;
+        
+    }
+
+
+.boton3{
+    display: flex;
+    justify-content: center;
+    margin: 100px 20px;
+}
+
+
+/* inicio del footer */
+ 
+.fot1{
+    background-color: #F3603B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 120px;
+    font-size: 25px;
+    background-image: url(/imagenes/bg-simplify-section-desktop.svg);
+}
+
+.fot1 button {
+    background-color:#f3f3f3;
+    
+}
+.sim{
+    color: #f3f3f3;
+}
+
+
+.fot1 a{
+    color: #F3603B;
+}
+
+
+   
+.fot2{
+    display: flex;
+    background-color: #1E1E26;
+    height: 230px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px -30px 0px 0px ;
+    
+    
+}
+   
+.logos{
+    padding: 20px 40px;
+    margin: 10px 0px 0px 90px  ;
+    
+}
+
+
+
+.logos li{
+    display: inline-block;
+    margin: 50px 10px 0px 0px ;
+    padding: 30px 0px 0px 0px ;
+}
+/* efectos */
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
+    .shrink { 
+        transition: all .2s ease-in-out; 
+        }
+        
+        .shrink:hover { 
+        transform: scale(0.9); 
+        }
+
+.lista1 li{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 8px 20px ;
+    
+    }
+
+    .lista2 li{
+        text-decoration: none;
+        color: #f3f3f3;
+        padding: 8px 20px 
+    }
+.update{
+    display: inline-block;
+    padding: 0px 0px 0px 0px ;
+    margin: 90px 60px 60px 0px ;
+}
+.update button{
+    font-size: 13px;
+    background-color:#F3603B ;
+    text-decoration: none;
+    height: 40px;
+    width: 60px;
+    border:none;
+    border-radius:60px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.36);
+}
+
+ input{
+    backgroundcolor: #B3B2B7;
+    text-decoration: none;
+    height: 40px;
+    width: 190px;
+    border:none;
+    border-radius:60px;}
+
+    .copy{
+        color: ;
+        padding: 30px 0px 0px 30px ;
+        margin: 50px 0px 0px 0px ;
+    }
+    .copy a{
+        color: #8C8C94;
+        text-decoration: none;
+    }
+
+    .copyr a{
+        color: #8C8C94;
+        text-decoration: none;
+        display: none;
+    }
+
+
+/* RESPONSIVE DESING */
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+@media (max-width:600px){
+    .hamburguesa{
+        display: flex;
+    }
+    .nav-list{
+        display: none;
+    }
+    .barraNav{
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px ;
+    }
+    .boton-header {
+        display: none;
+    }
+    .seccion1{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        
+    }
+    .graphics img{
+        width: 390px;
+        padding-left: -20px;
+        padding-right: -20px;
+    }
+    .texto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        
+        
+    }
+    .texto h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0px -80px ;
+        padding: 0px 10px ;
+    }
+
+    .texto p{
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0px -80px ;
+        padding: 0px 10px ;
+    }
+
+    .seccion1 button{
+      padding: 0px 0px;
+      margin: 0px 40px ;
+    }
+    .dos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+ 
+    }
+     .texto3 li:nth-child(1){
+        list-style-image: url(/imagenes/Button\ 1.png);
+        padding: 20px 0px 0px 20px ;
+        margin: 30px 0px 0px 0px;
+       
+    }
+    .texto2{
+        
+        padding: 0px 0px 0px 0px;
+        font-size: 16px;
+        line-height: 35px;
+        
+        
+    }
+
+    .texto2 h3{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0px -70px ;
+        padding: 0px 10px ;
+        text-align: center;
+    }
+    .texto2 p{
+        font-size: 16px;
+        line-height: 25px;
+        margin: 30px -60px ;
+        padding: -20px 0px ;
+        text-align: center;
+    }
+
+    
+    .titulosection{
+        font-size: 30px;
+        padding: 60px 0px ;
+        
+    }
+    
+    .card1{
+        height: 250px;
+        width: 100px;
+        padding: 0px -60px ;
+    }
+
+   .texto3 {
+        flex-direction: column;
+        line-height: 25px;
+        margin: 30px -60px ;
+        padding: 40px 5px 0px 0px;
+        text-align: center;
+    
+   }
+   .texto3 h3{
+    font-size: 13px;
+    margin: 0px -60px 0px 0px;
+    padding: 0px -20px 0px 40px ;
+    text-align: left;
+   }
+
+   .texto3 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px -60px ;
+    padding: -20px 30px ;
+     text-align: left;
+   }
+.tres{
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px ;
+        height: 250px;
+}
+.card2 img{
+    padding: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px ;
+}
+
+   .card2 p{
+       
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px -110px ;        
+   }
+     
+ .card3 {
+    display: none;
+ }
+ .card1{
+    display: none;
+ }
+
+ .fot1{
+    height: 280px;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 0px ;
+    margin: 0px 0px ;
+ }
+ .fot2{
+    height: 550px;
+    flex-direction: column-reverse;
+    
+ }
+
+ .update{
+    margin: 40px 0px -40px 0px ;
+    padding: -40px 0px ;
+ }
+
+ .update input{
+    margin: -20px 20px ;
+    padding: 0px 0px ;
+ }
+
+ .logos{
+    margin: 0px 0px 30px 0px;
+ }
+ .logos ul{
+    padding: 0px 0px;
+    margin: -30px 0px;
+ }
+
+ .lista1{
+    margin: -60px 80px 0px -90px;
+    /* padding: 0px 60px ; */
+ }
+ .lista2{
+    margin: 20px -50px -100px 100px ;
+ }
+ 
+ .copy a{
+    display: none;
+}
+.copyr a{
+    display: flex;
+   
+}
+.copyr{
+    margin: 0px 0px 20px 0px ;
+    padding: -70px 0px;
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
